@@ -1,0 +1,38 @@
+@font-face {
+    font-family: TheMacabre;
+    src: url(../../assets/fonts/TheMacabre.otf);
+  }
+  
+.navbar {
+    background-color: rgba(14, 13, 13, 0.986) !important;
+}
+.nav-item a {
+    color: rgba(231, 11, 11, 0.884);
+    font-size: 1.8rem !important;
+    letter-spacing: .2rem;
+    font-weight: 900;
+    margin: .5rem 0;
+    border-radius: 20px;
+    padding: 0.2rem .7rem;
+    font-family: TheMacabre;
+}
+.nav-item a:hover {
+    color:transparent;
+    scale: 1.2;
+    text-shadow: 5px 10px 1px  red;
+
+}
+.register {
+    background-color: rgb(255, 166, 0);
+    padding: .4rem 1rem;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+.register:hover{
+    background-color: rgb(228, 207, 25);
+}
+.register a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 600; 
+}
